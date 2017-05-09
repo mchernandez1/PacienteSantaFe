@@ -9,7 +9,8 @@ import com.facebook.appevents.AppEventsLogger;
  * Created by Maria on 1/05/2017.
  */
 
-public class PacienteApp extends Application {
+public class PacienteApp extends Application
+{
 
     public void onCreate() {
         super.onCreate();

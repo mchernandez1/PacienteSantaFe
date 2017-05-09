@@ -25,67 +25,64 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="citasMedicas"
+        android:onClick="citas"
         android:text="@string/citas"
-        android:id="@+id/button2"
-        android:layout_above="@+id/button5"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5"
-        android:layout_marginBottom="15dp" />
+        android:id="@+id/btnCitas"
+        android:layout_below="@+id/btnConsejos"
+        android:layout_alignLeft="@+id/btnConsejos"
+        android:layout_alignStart="@+id/btnConsejos" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="historialClinico"
+        android:onClick="historial"
         android:text="@string/historial"
-        android:id="@+id/button3"
-        android:layout_marginTop="15dp"
-        android:layout_below="@+id/button6"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/btnHistorial"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnMedicos"
+        android:layout_alignStart="@+id/btnMedicos" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="consejos"
         android:text="@string/consejos"
-        android:id="@+id/button5"
-        android:layout_marginBottom="15dp"
-        android:layout_above="@+id/button6"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp" />
+        android:id="@+id/btnConsejos"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="18dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="medicosTratantes"
+        android:onClick="medicos"
         android:text="@string/medicos"
-        android:id="@+id/button6"
-        android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3" />
+        android:id="@+id/btnMedicos"
+        android:layout_below="@+id/btnCitas"
+        android:layout_alignLeft="@+id/btnCitas"
+        android:layout_alignStart="@+id/btnCitas" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="editarPerfil"
         android:text="@string/perfil"
-        android:id="@+id/button7"
-        android:layout_alignParentBottom="true"
-        android:layout_toLeftOf="@+id/button5"
-        android:layout_toStartOf="@+id/button5"
-        android:layout_marginBottom="39dp" />
+        android:id="@+id/btnPerfil"
+        android:layout_below="@+id/btnHistorial"
+        android:layout_alignRight="@+id/btnCitas"
+        android:layout_alignEnd="@+id/btnCitas"
+        android:layout_marginTop="62dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="logout"
         android:text="@string/logout"
-        android:id="@+id/button4"
+        android:id="@+id/btnSesion"
         android:layout_marginRight="12dp"
         android:layout_marginEnd="12dp"
-        android:layout_alignBottom="@+id/button7"
+        android:layout_alignBottom="@+id/btnPerfil"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 

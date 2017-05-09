@@ -12,4 +12,9 @@
     <string name="perfil">Editar perfil</string>
     <string name="medicos">Medicos tratantes</string>
     <string name="consejos">Mis consejos</string>
+    <string name="action_settings">Ayuda</string>
+    <string name="MenuOpcion1">Información</string>
+    <string name="centroMedico">Centro Medico</string>
+    <string name="pronto">Más pronto</string>
+
 </resources>

@@ -4,9 +4,9 @@
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name=".PacienteApp"
@@ -26,9 +26,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".CitasActivity"></activity>
-        <activity android:name=".EditarPerfilActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CitasActivity" />
+        <activity android:name=".EditarPerfilActivity" />
+        <activity android:name=".InformaciónMedicosActivity" />
+        <activity
+            android:name=".menu_principal"
+            android:label="@string/title_activity_menu_principal"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

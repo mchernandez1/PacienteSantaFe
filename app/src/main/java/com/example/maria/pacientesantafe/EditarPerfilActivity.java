@@ -107,7 +107,7 @@ public class EditarPerfilActivity extends Activity
         if(!TextUtils.isEmpty(identificacion))
         {
             String url = new String(
-                    "http://localhost:9000/"+ "identificacion");
+                    "https://arquisoft.herokuapp.com/"+ "identificacion");
             new LoadFilmTask().execute(url);
         }
     }

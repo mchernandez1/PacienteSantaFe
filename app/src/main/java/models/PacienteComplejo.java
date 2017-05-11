@@ -8,6 +8,7 @@ import java.util.List;
 
 public class PacienteComplejo
 {
+    private long idPaciente;
     //Lista de medicos o se mapea la relación ManyToOne
     private List<Medico> medicos;
 

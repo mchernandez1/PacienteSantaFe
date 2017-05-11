@@ -2,32 +2,15 @@ package com.example.maria.pacientesantafe;
 
 
 import android.content.Intent;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.text.TextUtils;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
 
 import com.facebook.AccessToken;
 import com.facebook.login.LoginManager;
-import com.github.kevinsawicki.http.HttpRequest;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonParser;
-import com.google.gson.reflect.TypeToken;
-
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.List;
-
-import models.Paciente;
 
 
 /**
@@ -48,6 +31,16 @@ public class MainActivity extends AppCompatActivity
           goLoginScreen();
         }
 
+//public boolean onNavigationItemSelected(MenuItem item)
+//{
+  //  int id = item.getItemId();
+   // FragmentManager fragmentManager = getFragmentManager();
+
+    //if(id==R.id.nav_cita)
+    //{
+    //    fragmentManager.beginTransaction().replace(), new CitaFragment()).commit();
+  //  }
+//}
 
 //       btnCitas = (Button) findViewById(R.id.btnCitas);
 
@@ -83,7 +76,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void goInformacionScreen() {
-        Intent intent = new Intent(this, InformaciónMedicosActivity.class);
+        Intent intent = new Intent(this, InformacionMedicosActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }

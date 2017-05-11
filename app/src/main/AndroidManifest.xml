@@ -28,11 +28,11 @@
         </activity>
         <activity android:name=".LoginActivity" />
         <activity android:name=".CitasActivity" />
+        <activity android:name=".InformacionMedicosActivity" />
         <activity android:name=".EditarPerfilActivity" />
-        <activity android:name=".InformaciónMedicosActivity" />
         <activity
-            android:name=".menu_principal"
-            android:label="@string/title_activity_menu_principal"
+            android:name=".NavigationDrawer"
+            android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
